@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About the dev of this site 'ICM'">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="author" content="IronCladmonster185">
+    <title>About ICM</title>
+
+     <!--css-->
+    <link rel="stylesheet" href="style.css">
+
+     
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" alt="menu" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="a-row">
+            
+            <div class="cnt">
+                <h2>About ICM</h2>
+                <h4>
+                    <br>
+                    Hey there, I'm ICM, a beginner coder and part time designer/editor. <br>
+                    So, ICM stands for IronCladMonster185 and yes oviously, Im a monster.
+                    I am currently trying to study some javascript. <br> 
+                    Im makin this website to, revise or practice or whatever it is, my skills and yea ofcourse, to kill my boredom. <br>
+                    Im not employed as Im just at highschool now. I've been doing free
+                    designs for a discord server called FLD which stands for Free Logo Design server. <br>   
+                    You can find more about FLD from <a id="ah" href="https://freelogodesign.rf.gd" target="_blank"> here</a><br>  
+                    Im frustrated most of the time to be honest. <br>
+                    I like listenin music, like most of the guys do, likes memes.
+                    likes playing games, <br>
+                    I play Minecraft most of the time. <br>
+                    And yeee, I like Math. <br>
+                    <br>
+
+                    <p>
+                        I guess thats it, so now u know the basic details about me, which was exactly the use of this page! <br>
+                        Thank You for reading, Have a great day/night.
+                    </p>
+                </h4>
+            </div>
+        </div>   
+    </div>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+            
+    
+        })
+    
+    </script>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "130px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

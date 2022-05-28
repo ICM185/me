@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="c-body">
+    <div class="container">
+      <div class="navbar">
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul id="menuList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.png" alt="menu" class="menu-icon" onclick="togglemenu()">
+      </div>
+      <div class="contact-title">
+         <h1>CONTACT</h1>
+         <h2>Stay in touch!</h2>
+      </div>
+      <div class="contact-form">
+        <form id="contact-form" method="post" action="https://formsubmit.co/ironcladmonster185@gmail.com">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required><br>
+            <textarea name="message" class="form-control-text" cols="30" rows="4" placeholder="Message" required></textarea><br>
+            <input type="submit" class="form-control submit" value="Send">
+        </form>
+      </div>
+    </div>
+
+<script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function(){
+          loader.style.display = "none";
+          
+  
+      })
+</script>
+<script>
+      var menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+      function togglemenu(){
+          if (menuList.style.maxHeight == "0px") {
+              menuList.style.maxHeight = "130px";
+          }
+          else{
+              menuList.style.maxHeight = "0px";
+          }
+      }
+</script>
+
+</body>
+</html>
