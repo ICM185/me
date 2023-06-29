@@ -364,13 +364,13 @@ form .submit:hover{
   display: flex;
   justify-content: space-between;
   margin: 100px a;
-  /*font-family: "Quicksand";*/
+  font-family: "Poppins";
 }
 .cnt{
   flex-basis: 40%;
   position: relative;
   margin: 50px;
-  font-family: "Poppins";
+  
 }
 .cnt::after{
   content: '';
