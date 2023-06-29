@@ -103,7 +103,7 @@
 /*home*/
 .container{
 width: 100%;
-min-height: 100vh;
+min-height: 100%;
 padding-left:8%;
 padding-right: 8%;
 box-sizing: border-box;
