@@ -364,7 +364,7 @@ form .submit:hover{
   display: flex;
   justify-content: space-between;
   margin: 100px a;
-  font-family: "Quicksand";
+  /*font-family: "Quicksand";*/
 }
 .cnt{
   flex-basis: 40%;
